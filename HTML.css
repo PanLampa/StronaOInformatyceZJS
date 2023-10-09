@@ -1,0 +1,61 @@
+.ZEGAR{
+    background-color: rgb(18, 78, 146);
+    box-sizing: content-box;
+    display: flex;
+    border-radius: 10%;
+    font-size: 36px;
+}
+.h{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    background-color: rgb(100, 204, 197);
+    box-sizing: content-box;
+    display: flex;
+    border-radius: 10%;
+    font-size: 36px;
+}
+h2{
+    text-align: center;
+    background-color: rgb(23, 107, 135);
+}
+h3{
+    text-align: center;
+    background-color: rgb(161, 213, 221);
+    border-radius: 20px;
+}
+li{
+   font-size: larger; 
+   height: 30px;
+}
+img{
+    background-color: black;
+    border-radius: 1%;
+    width: clamp(400px, 40%, 600px); 
+    border: 1px solid black;
+    background-color: silver;
+    margin-right: 1em;
+    object-fit: scale-down;
+    align-self: unset;
+    max-block-size: 420px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(218, 255, 251);
+    text-align: center;
+    color: #3d2a6e;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+}
+p{
+    font-size: 120%;
+    font-weight: bold;
+    display: inline;
+    
+}
