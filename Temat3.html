@@ -9,11 +9,13 @@
 </head>
 <body>
     <div id="xd">
-    <h1>Warstwowy model sieci</h1>
+    <h1>Warstwowy model sieci</h1> <a href="#osi"> OSI </a> &nbsp;&nbsp;   <a href="#TCP"> tcp-ip</a>
     <h2>Model warstwowy OSI</h2>
-    <img src="iso_model.png" alt="">
-    <p>Model OSI<br> (Open Systems Interconnection) opisuje sposób przepływu informacji między aplikacjami software’owymi w jednej stacji sieciowej a aplikacjami w innej stacji sieciowej przy użyciu medium transmisyjnego. Model OSI jest ogólnym modelem składającym się z siedmiu warstw, z których każda opisuje określone funkcje sieciowe.</p>
-    <ul>
+    <div class="aligned">
+    <img  id="OSI" src="iso_model.png" alt="">
+    <span><p>Model OSI<br> (Open Systems Interconnection) opisuje sposób przepływu informacji między aplikacjami software’owymi w jednej stacji sieciowej a aplikacjami w innej stacji sieciowej przy użyciu medium transmisyjnego. Model OSI jest ogólnym modelem składającym się z siedmiu warstw, z których każda opisuje określone funkcje sieciowe.</p>
+    </span></div>
+    <ul style="text-align: left;">
 <li>Warstwa aplikacji - Określa sposoby dostępu do środowiska sieciowego. Umożliwia udostępnianie plików, stron WWW, drukarek. Warstwa ta pełni rolę interfejsu między aplikacją użytkownika a usługami sieciowymi.</li>
 <br>
 <li>Warstwa prezentacji - Definiuje i standaryzuje format danych (np. znaki narodowe, liczby). Przeprowadza kodowanie i kompresję danych.</li>
@@ -27,22 +29,26 @@
 <li>Warstwa łącza danych - Zapewnia niezawodność łącza danych. Współpracuje ze sterownikami urządzeń sieciowych, np. kart sieciowych.</li>
 <br>
 <li>Warstwa fizyczna - Odpowiada za transmisję danych pomiędzy komputerami. Do warstwy tej należą urządzenia fizyczne, takie jak: karty sieciowe, modemy, koncentratory i media transmisyjne (kable, fale radiowe).</li>
-    </ul>
-    <h2>modele warstwy TCP/IP</h2>
+    </ul >
+    <h2 id="TCP">modele warstwy TCP/IP</h2>
+    <div class="aligned">
     <img src="tcp-ip-model.png" alt="">
-    <ul>
-<li>Warstwy aplikacji, zajmującej się reprezentacją danych dla użytkownika oraz ich kodowaniem,</li>
+  <span>  <ul>
+<li>Warstwy aplikacji, zajmującej się reprezentacją danych dla użytkownika oraz ich kodowaniem,</li><br>
 <li>Warstwy transportowej, zapewniającej komunikację pomiędzy różnymi urządzeniami w sieci,</li>
 <li>Internet, zapewniający najlepszą trasę dla przepływu pakietów,</li>
 <li>Warstwy dostępu do sieci kontrolującej urządzenia fizyczne i media.</li>
-    </ul>
-
+    </ul></span>
+</div>
     <h1>urządzenia sieciowe</h1>
-    <h2>    Router</h2>
+    <h2>Router</h2>
+    <div class="aligned">
     <img src="ruter.jpg" alt="">
-    <p>to urządzenie, które służy do łączenia sieci komputerowych, na przykład sieci Internet z domową siecią lokalną. Za pomocą wbudowanych mechanizmów (np. NAT) ruter kieruje ruchem pakietów w sieci - wyznacza dla nich odpowiednią trasę. To właśnie od procesu trasowania (ang. routing) wzięła się nazwa urządzenia.</p>
+    <span><p>to urządzenie, które służy do łączenia sieci komputerowych, na przykład sieci Internet z domową siecią lokalną. Za pomocą wbudowanych mechanizmów (np. NAT) ruter kieruje ruchem pakietów w sieci - wyznacza dla nich odpowiednią trasę. To właśnie od procesu trasowania (ang. routing) wzięła się nazwa urządzenia.</p>
+    </span></div>  
     <h2>Koncentrator</h2>
     <p>(ang. hub) dziś już nie stosowane urządzenie sieciowe służące do realizacji połączeń między komputerami w sieciach Ethernet opartych na topologii gwiazdy. Pośrednicząc w połączeniu, rozsyła zapytania do wszystkich komputerów uruchomionych w sieci. Dane trafiają do każdego aktywnego węzła, jednak odpowiada tylko ta maszyna, dla której przeznaczone są dane pakiety, pozostałe ignorują cudze pakiety.</p>
+      
 </div>
 </body>
 </html>
