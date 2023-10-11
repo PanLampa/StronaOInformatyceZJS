@@ -4,8 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Firewall</title>
+    <link rel="stylesheet" href="HTML.css">
 </head>
 <body>
-    
+    <h1>Zapora sieciowa (firewall)</h1>
+    <h2>Co to Firewall</h2>
+         <div class="aligned">
+        <img src="firewall-network-628x353.avif" alt="">
+    <span><p>
+        Zapora sieciowa (firewall) <br>to urządzenie zabezpieczające sieć, które monitoruje przychodzący i wychodzący ruch sieciowy i decyduje o jego przepuszczeniu lub zablokowaniu w oparciu o zestaw określonych zasad.</p>
+    </span>
+     </div>
+     <h2>Jakie wyróżniamy zapory sieciowe?</h2>
+     <div id="row">
+        <div id="l">
+     
+        <h3>Firewall proxy</h3>
+     <span><p>
+          czyli wczesny rodzaj zapory sieciowej, służy jako brama z jednej sieci do drugiej dla konkretnej aplikacji. Serwery proxy mogą zapewnić dodatkową funkcjonalność, jak na przykład buforowanie treści i zabezpieczanie poprzez uniemożliwianie nawiązywania bezpośrednich połączeń z siecią zewnętrzną. Może to jednak mieć także wpływ na przepustowość i obsługiwane aplikacje.</p></span>
+    </div>
+
+    <div id="m">
+        <h3>Pełnostanowy firewall</h3>
+        <span><p>
+            Obecnie uważany za „tradycyjny”, pełnostanowy firewall przepuszcza lub blokuje ruch w oparciu o stan, port i protokół. Monitoruje on całą aktywność od otwarcia połączenia aż do jego zamknięcia. Decyzje dotyczące filtrowania podejmuje na podstawie zarówno reguł zdefiniowanych przez administratora, jak i kontekstu, odnoszącego się do informacji z poprzednich połączeń i pakietów należących do tego samego połączenia.</p></span>
+    </div>
+    <div id="r">
+    <h3>Firewall ujednoliconego zarządzania zagrożeniami</h3>
+        <span><p>Narzędzie UTM zazwyczaj w luźny sposób łączy funkcje zapory kontroli pełnostanowej z zabezpieczeniem przed nieautoryzowanym dostępem i oprogramowaniem antywirusowym. Może także zawierać dodatkowe usługi oraz, często, funkcję zarządzania chmurą. Główną cechą UTS jest prostota i łatwość użytkowania.</p></span>
+    </div>
+
+<div id="m">
+<h3>System firewall nowej generacji (NGFW)</h3>
+<p>Zapory sieciowe ewoluowały i nie zajmują się już tylko prostym filtrowaniem pakietów i kontrolą stanu. Większość firm wdraża firewalle nowej generacji, aby zatrzymywać zagrożenia, takie jak zaawansowane złośliwe oprogramowania i ataki na poziomie aplikacji.</p>
+</div>
+<div id="m">
+    <h3>
+        Firewalle NGFW ukierunkowane na zagrożenia</h3>
+        <p>Zapory sieciowe te zawierają wszystkie funkcjonalności tradycyjnych zapór NGFW oraz zapewniają możliwość zaawansowanego wykrywania i przeciwdziałania zagrożeniom.
+            </p>
+</div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div>
+<h2>Fierwall dzielimy na 2 typy:</h2>
+<div id="mm">
+    <h3>filtrujące IP</h3>
+    <p>blokują cały ruch, ale przepuszczają dopuszczony. Firewalle filtrujące działają na poziomie pakietów IP. Zaprojektowane są do kontroli przepływu, bazując na adresie źródłowym, docelowym porcie i typie pakietu.</p>
+   </div>
+   <div id="mm">
+    <h3>Firewall aplikacyjny</h3>
+    <p>Firewall aplikacyjny to rodzaj filtru integrującego się z serwerem WWW. Działa on między częścią sieciową serwera a częścią aplikacyjną. W związku z tym dostaje do analizy ruch po wstępnej obróbce przez serwer.
+    </p>
+   </div>
+</div>
 </body>
 </html>

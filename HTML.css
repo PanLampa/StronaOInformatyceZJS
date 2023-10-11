@@ -71,3 +71,22 @@ span {
     padding: 10px;
     text-align: left;
 }
+#row{
+    flex-direction: row;
+}
+#l{
+ float: left;
+ width: 33%;
+}
+#m{
+float: left;
+width: 34%;
+}
+#r{
+float: right;
+width: 33%;
+}
+#mm{
+    float: right;
+    width: 50%;
+    }
