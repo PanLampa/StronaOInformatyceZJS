@@ -14,20 +14,24 @@ html{
     justify-content: center;
 }
 h1 {
-    background-color: rgb(100, 204, 197);
+    background-color: rgb(185, 180, 199);
     box-sizing: content-box;
     display: flex;
     border-radius: 10%;
     font-size: 36px;
+
+
 }
 h2{
     text-align: center;
-    background-color: rgb(23, 107, 135);
+    background-color: rgb(92, 84, 112);
+    color: azure;
 }
 h3{
     text-align: center;
-    background-color: rgb(161, 213, 221);
+    background-color: rgb(53, 47, 68);
     border-radius: 20px;
+    color: azure;
 }
 li{
    font-size: larger; 
@@ -48,7 +52,7 @@ img{
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(218, 255, 251);
+    background-color: rgb(185, 180, 199);
     text-align: center;
     color: #3d2a6e;
     flex-direction: column;
@@ -89,4 +93,7 @@ width: 33%;
 #mm{
     float: right;
     width: 50%;
+    }
+    html{
+        background-color: rgb(185, 180, 199);
     }
